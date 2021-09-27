@@ -10,7 +10,7 @@ public class ConnectionProvider {
 	public static Connection getCon() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingsystem?useSSL=false", "root", "");
+			Connection con = DriverManager.getConnection("mysql://hjb1tvndjskjuy89:bk59f0pdi0nymsei@j8oay8teq9xaycnm.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/f974d21wadk3tufh","hjb1tvndjskjuy89","bk59f0pdi0nymsei");
 			//JOptionPane.showMessageDialog(null,"Connection estd");
 			return con;
 		}
